@@ -16,32 +16,32 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
       >
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Your Interview Process
-          </span>
-
-          <textarea
-            value={post.prompt}
-            onChange={(e) => setPost({ ...post, prompt: e.target.value })}
-            placeholder='Write your post here...'
-            required
-            className='form_textarea '
-          />
-        </label>
-
-        <label>
-          <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Field of Prompt{" "}
+            Company Name{" "}
             <span className='font-normal'>
-              (#Microsoft, #Google, #Boeing, etc.)
+              (Microsoft, Google, Boeing, etc.)
             </span>
           </span>
           <input
             value={post.tag}
             onChange={(e) => setPost({ ...post, tag: e.target.value })}
             type='text'
-            placeholder='#Tag'
+            placeholder='Company name'
             required
             className='form_input'
+          />
+        </label>
+
+        <label>
+          <span className='font-satoshi font-semibold text-base text-gray-700'>
+            Your Interview Process
+          </span>
+
+          <textarea
+            value={post.prompt}
+            onChange={(e) => setPost({ ...post, prompt: e.target.value })}
+            placeholder='E.g. Round 1: Behavioral Round 2: Technical'
+            required
+            className='form_textarea '
           />
         </label>
 
