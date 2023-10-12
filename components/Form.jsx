@@ -16,9 +16,9 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
       >
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Company Name{" "}
+            Company Name and Role{" "}
             <span className='font-normal'>
-              (Microsoft, Google, Boeing, etc.)
+              (Microsoft, Google, Boeing, Product Manager Intern etc.)
             </span>
           </span>
           <input
