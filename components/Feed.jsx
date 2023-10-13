@@ -72,7 +72,7 @@ const Feed = () => {
       <form className='relative w-full flex-center'>
         <input
           type='text'
-          placeholder='Search for a tag or a username'
+          placeholder='Search for a company or role'
           value={searchText}
           onChange={handleSearchChange}
           required

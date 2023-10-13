@@ -25,7 +25,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             value={post.tag}
             onChange={(e) => setPost({ ...post, tag: e.target.value })}
             type='text'
-            placeholder='Company name'
+            placeholder='Company Name and Role'
             required
             className='form_input'
           />
@@ -46,7 +46,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         </label>
 
         <div className='flex-end mx-3 mb-5 gap-4'>
-          <Link href='/' className='text-gray-500 text-sm'>
+          <Link href='/' className='text-gray-500 text-sm mr-4'>
             Cancel
           </Link>
 

@@ -6,10 +6,10 @@ const Home = () => {
         <h1 className="head_text text-center">
             Discover and Share
             <br classname = "max-md:hidden" />
-            <span className = "orange_gradient text-center"> Your Interview Process </span>
+            <span className = "orange_gradient text-center"> Your Internship Interview Process </span>
         </h1>
         <p className = "desc text-center">
-            Internvu is a site to share and discover interview
+            Internvu is a site to share and discover internship interview
             experiences and processes at different companies
             to help better prepare for your future career.
         </p>
