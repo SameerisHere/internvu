@@ -4,7 +4,7 @@ import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 
 export const metadata = {
-    title: "Internvu",
+    title: "Internview",
     description: 'Discover and Share Your Interview Process'
 }
 const RootLayout = ({ children }) => (
